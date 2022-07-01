@@ -20,6 +20,11 @@ nav {
   align-items: center;
   font-family: "Poppins", sans-serif;
 }
+.container {
+  width: 1500px;
+  margin: 0 auto;
+  /* background-color: red; */
+}
 .nav-items > ul {
   display: flex;
 }
@@ -153,4 +158,31 @@ select:focus {
 .card p {
   color: #5c6272;
   font-size: 18px;
+}
+.about-us {
+  font-family: "Poppins", sans-serif;
+}
+
+.about-us .about {
+  color: #4141a5;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.about-us  h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+.about-us p{
+    color: #5C6272;
+    font-size: 18px;
+}
+.about-text{
+    display: flex;
+    gap: 100px;
+}
+.about-text h1{
+    width: 40%;
+}
+.about-text > p{
+    width: 40%;
 }
