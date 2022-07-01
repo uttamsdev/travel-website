@@ -4,6 +4,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  background-color: #ebecee;
 }
 
 header {
@@ -33,7 +34,7 @@ nav {
 }
 
 .singup-btn {
-    font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
   padding: 16px 25px;
   border: 3px solid #777f96;
   background-color: transparent;
@@ -41,7 +42,6 @@ nav {
   font-size: 18px;
   cursor: pointer;
   font-weight: 500;
-  
 }
 
 .banner > h1 {
@@ -77,9 +77,9 @@ nav {
   background-color: white;
   border-radius: 4px;
 }
-.fa-solid{
-    color: #AFAEB4;
-    font-size: 18px;
+.fa-solid {
+  color: #afaeb4;
+  font-size: 18px;
 }
 input,
 select {
@@ -98,14 +98,59 @@ select:focus {
   outline: none;
 }
 
-.search-btn{
-    width: 152px;
-    height: 74px;
-    border: none;
-    background-color: #34A5E4;
-    color: white;
-    font-weight: 600;
-    font-size: 20px;
-    cursor: pointer;
-    border-radius: 4px;
+.search-btn {
+  width: 152px;
+  height: 74px;
+  border: none;
+  background-color: #34a5e4;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.summary {
+  font-family: "Poppins", sans-serif;
+  margin: 154px 0px 100px 0px;
+}
+.summary h1 {
+  font-size: 52px;
+  color: #1e2a39;
+  text-align: center;
+}
+.summary > p {
+  color: #5c6272;
+  text-align: center;
+}
+
+.card {
+  width: 326px;
+  height: 306px;
+  background-color: white;
+}
+.info-container {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 80px;
+}
+.card {
+  padding-left: 25px;
+  overflow: hidden;
+  box-shadow: 0px 60px 100px -10px rgba(35, 47, 70, 0.06);
+  border-radius: 12px;
+}
+.card img {
+  width: 190px;
+  height: 190px;
+  margin-left: -50px;
+}
+.card h3 {
+  color: #1e2a39;
+  margin-top: -42px;
+}
+.card p {
+  color: #5c6272;
+  font-size: 18px;
 }
