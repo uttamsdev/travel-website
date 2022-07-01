@@ -122,7 +122,7 @@ select:focus {
   margin: 154px 0px 100px 0px;
 }
 .summary h1 {
-  font-size: 50px;
+  font-size: 45px;
   color: #1e2a39;
   text-align: center;
 }
@@ -241,17 +241,20 @@ select:focus {
   margin-bottom: 100px !important;
 }
 
-.tour-section h1 {
-  font-size: 50px;
+.tour-section h1,
+.partners h1 {
+  font-size: 45px;
   color: #1e2a39;
   text-align: center;
   margin-bottom: 0px;
 }
-.tour-section p {
+.tour-section p,
+.partners p {
   color: #5c6272;
   font-size: 18px;
 }
-.tour-info {
+.tour-info,
+.partners-info {
   text-align: center;
 }
 .tour-card {
@@ -268,29 +271,51 @@ select:focus {
 .tour-details {
   display: flex;
 }
-.tour-cards{
-    display: flex;
-    justify-content: center;
-    gap: 60px;
-    margin-top: 80px;
+.tour-cards {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 80px;
 }
-.tour-card h3{
-    margin: 5px 0px;
-    padding-left: 16px;
+.tour-card h3 {
+  margin: 5px 0px;
+  padding-left: 16px;
 }
 .tour-card img {
   display: block;
   padding: 15px !important;
 }
-.tour-card p{
-    padding: 15px;
-    margin: 0;
-    font-size: 16px;
+.tour-card p {
+  padding: 15px;
+  margin: 0;
+  font-size: 16px;
 }
-.tour-card .fa-solid{
-    font-size: 16px;
+.tour-card .fa-solid {
+  font-size: 16px;
 }
-.tour-card .price{
-    color: #EE6D52;
-    font-weight: 600;
+.tour-card .price {
+  color: #ee6d52;
+  font-weight: 600;
+}
+
+.partners {
+  font-family: "Poppins", sans-serif;
+}
+.partners-img-container img{
+/* width: 120px; */
+/* height: 30px; */
+}
+.partners-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 70px;
+}
+.parterns-img-two{
+    margin-top: 30px;
+    margin-bottom: 75px;
+}
+.parterns-img-two img:nth-child(2){
+    width: 150px;
 }
