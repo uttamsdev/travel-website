@@ -301,21 +301,48 @@ select:focus {
 .partners {
   font-family: "Poppins", sans-serif;
 }
-.partners-img-container img{
-/* width: 120px; */
-/* height: 30px; */
+.partners-img-container img {
+  /* width: 120px; */
+  /* height: 30px; */
 }
-.partners-img{
+.partners-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin-top: 70px;
+}
+.parterns-img-two {
+  margin-top: 30px;
+  margin-bottom: 75px;
+}
+.parterns-img-two img:nth-child(2) {
+  width: 150px;
+}
+.top-cities {
+  font-family: "Poppins", sans-serif;
+  margin-top: 80px !important;
+  margin-bottom: 150px !important;
+}
+.top-cities span {
+  font-size: 20px;
+  color: #4141a5;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.top-cities h1 {
+  font-size: 40px;
+  color: #292929;
+  margin: 15px 0px;
+}
+.top-cities p {
+  color: #5c6272;
+  font-size: 18px;
+  margin: 0;
+}
+.top-cities-card{
+    margin-top: 80px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 60px;
-    margin-top: 70px;
-}
-.parterns-img-two{
-    margin-top: 30px;
-    margin-bottom: 75px;
-}
-.parterns-img-two img:nth-child(2){
-    width: 150px;
+    gap: 50px;
 }
