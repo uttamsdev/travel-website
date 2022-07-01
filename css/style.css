@@ -33,12 +33,15 @@ nav {
 }
 
 .singup-btn {
+    font-family: "Inter", sans-serif;
   padding: 16px 25px;
   border: 3px solid #777f96;
   background-color: transparent;
   color: white;
   font-size: 18px;
-  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  font-weight: 500;
+  
 }
 
 .banner > h1 {
@@ -67,19 +70,28 @@ nav {
 }
 .input-area {
   display: flex;
+  justify-content: center;
   align-items: center;
-  width: 800px;
+  width: 650px;
   height: 74px;
   background-color: white;
+  border-radius: 4px;
+}
+.fa-solid{
+    color: #AFAEB4;
+    font-size: 18px;
 }
 input,
 select {
   height: 50px;
   border: none;
+  padding-left: 10px;
   /* background-color: transparent; */
 }
 select {
   background-color: transparent;
+  color: #878686;
+  font-weight: 500;
 }
 input,
 select:focus {
@@ -91,4 +103,9 @@ select:focus {
     height: 74px;
     border: none;
     background-color: #34A5E4;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 4px;
 }
