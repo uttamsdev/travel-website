@@ -92,7 +92,6 @@ select {
   height: 50px;
   border: none;
   padding-left: 10px;
-  /* background-color: transparent; */
 }
 select {
   background-color: transparent;
@@ -301,10 +300,7 @@ select:focus {
 .partners {
   font-family: "Poppins", sans-serif;
 }
-.partners-img-container img {
-  /* width: 120px; */
-  /* height: 30px; */
-}
+
 .partners-img {
   display: flex;
   justify-content: center;
@@ -424,7 +420,6 @@ select:focus {
 .subscribe-area {
   display: flex;
   gap: 250px;
-  /* margin-top: 200px !important; */
 }
 .subscribe-input {
   margin-top: 110px;
@@ -451,8 +446,6 @@ select:focus {
   top: -398px;
   left: 630px;
   opacity: 0.25;
-  /* z-index: ; */
-  /* width: 1000px; */
 }
 .subscribe img:nth-child(2) {
   position: relative;
@@ -460,7 +453,6 @@ select:focus {
   z-index: 1;
   opacity: 0.25;
   margin-left: 10px;
-  /* width: 1000px; */
 }
 .subscribe .bg-img {
   position: relative;
@@ -469,7 +461,6 @@ select:focus {
   z-index: 1;
   opacity: 0.25;
   margin-left: 10px;
-  /* width: 1000px; */
 }
 
 .footer {
@@ -477,7 +468,6 @@ select:focus {
   position: relative;
   height: 450px;
   background-color: #10100e;
-  /* z-index: -1 !important; */
   z-index: -1;
   color: white;
 }
@@ -485,14 +475,21 @@ select:focus {
   color: white;
 }
 .footer .social-icons {
-  width: 500px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-row-gap: -50px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
 }
 .footer .social-icons a {
   text-decoration: none;
   color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+.footer .social-icons a img{
+    padding-right: 10px;
 }
 .footer p {
   font-size: 18px;
