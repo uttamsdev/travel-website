@@ -319,30 +319,83 @@ select:focus {
 .parterns-img-two img:nth-child(2) {
   width: 150px;
 }
-.top-cities {
+.top-cities,
+.testimonials {
   font-family: "Poppins", sans-serif;
-  margin-top: 80px !important;
+  margin-top: 90px !important;
   margin-bottom: 150px !important;
 }
-.top-cities span {
+.top-cities span,
+.testimonials span {
   font-size: 20px;
   color: #4141a5;
   text-transform: uppercase;
   font-weight: bold;
 }
-.top-cities h1 {
+.top-cities h1,
+.testimonials h1 {
   font-size: 40px;
   color: #292929;
   margin: 15px 0px;
 }
-.top-cities p {
+.top-cities p,
+.testimonials p {
   color: #5c6272;
   font-size: 18px;
   margin: 0;
 }
-.top-cities-card{
-    margin-top: 80px;
+.top-cities-card {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.testimonial-cards{
+    margin-top: 90px;
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 57px;
+}
+.testimonial-card{
+    margin-top: 40px;
+    width: 300px;
+    height: 351px;
+    border-radius: 8px;
+    background-color: white;
+}
+.hr{
+    width: 242px;
+    height: 2px;
+    background-color: #EFEFEF;
+    margin: 25px auto;
+}
+.testimonial-card img{
+    /* width: 242px; */
+    position: relative;
+    top: -80px;
+    left: 38px;
+}
+.testimonial-card h4{
+    margin-top: -150px;
+    text-align: center;
+}
+.testimonial-card .sub-title{
+    color: #6D7487;
+    font-size: 16px;
+    padding: 0;
+    text-align: center;
+    margin-top: -25px;
+}
+.testimonial-icons{
+    padding-left: 15px;
+}
+.testimonial-icons .fa-solid{
+    color: #FAB33F;
+    font-size: 16px;
+}
+.testimonial-details{
+    color: #646670 !important;
+    font-size: 16px !important;
+    margin-top: 15px !important;
+    padding: 0px 15px !important;
 }
