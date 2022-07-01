@@ -418,16 +418,15 @@ select:focus {
     color: white;
     font-size: 16px;
     padding:0px 0px 0px 90px;
-    margin: 0;
     
 }
 .subscribe-area{
     display: flex;
-    gap: 200px;
+    gap: 250px;
     /* margin-top: 200px !important; */
 }
 .subscribe-input{
-    margin-top: 100px;
+    margin-top: 110px;
     width: 500px;
     height: 75px;
     background-color: white;
