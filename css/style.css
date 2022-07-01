@@ -399,3 +399,50 @@ select:focus {
     margin-top: 15px !important;
     padding: 0px 15px !important;
 }
+.subscribe{
+    font-family: "Poppins", sans-serif;
+    width: 1300px;
+    margin: 0 auto;
+    height: 250px;
+    background-color: #35a4e4f6;
+    margin-bottom: 100px;
+    border-radius: 12px;
+}
+.subscribe h1{
+    font-size: 40px;
+    color: white;
+    padding:62px 0px 0px 90px;
+    margin: 0;
+}
+.subscribe p{
+    color: white;
+    font-size: 16px;
+    padding:0px 0px 0px 90px;
+    margin: 0;
+    
+}
+.subscribe-area{
+    display: flex;
+    gap: 200px;
+    /* margin-top: 200px !important; */
+}
+.subscribe-input{
+    margin-top: 100px;
+    width: 500px;
+    height: 75px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    border-radius: 8px;
+}
+.subscribe-btn{
+    border: none;
+    padding: 18px 25px;
+    background-color: #0F415C;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
