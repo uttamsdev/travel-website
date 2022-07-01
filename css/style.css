@@ -407,6 +407,7 @@ select:focus {
     background-color: #35a4e4f6;
     margin-bottom: 100px;
     border-radius: 12px;
+    overflow: hidden;
 }
 .subscribe h1{
     font-size: 40px;
@@ -444,4 +445,29 @@ select:focus {
     font-weight: 600;
     border-radius: 5px;
     cursor: pointer;
+}
+.subscribe img:nth-child(3){
+    position: relative;
+    top: -398px;
+    left: 630px;
+    opacity: 0.3;
+    /* z-index: ; */
+    /* width: 1000px; */
+}
+.subscribe img:nth-child(2){
+    position: relative;
+    top: -275px;
+    z-index: 1;
+    opacity: 0.3;
+    margin-left: 10px;
+    /* width: 1000px; */
+}
+.subscribe .bg-img{
+    position: relative;
+    top: -200px;
+    left: 195px;
+    z-index: 1;
+    opacity: 0.3;
+    margin-left: 10px;
+    /* width: 1000px; */
 }
