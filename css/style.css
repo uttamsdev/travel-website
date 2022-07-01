@@ -161,28 +161,74 @@ select:focus {
 }
 .about-us {
   font-family: "Poppins", sans-serif;
+  margin-top: 100px;
 }
 
 .about-us .about {
   color: #4141a5;
   text-transform: uppercase;
   font-weight: bold;
+  font-size: 22px;
 }
-.about-us  h1{
-    font-weight: 700;
-    font-size: 40px;
+.about-us h1 {
+  font-weight: 700;
+  font-size: 40px;
 }
-.about-us p{
-    color: #5C6272;
-    font-size: 18px;
+.about-us p {
+  color: #5c6272;
+  font-size: 18px;
 }
-.about-text{
-    display: flex;
-    gap: 100px;
+.about-text {
+  display: flex;
+  gap: 100px;
 }
-.about-text h1{
-    width: 40%;
+.about-text h1 {
+  width: 40%;
 }
-.about-text > p{
-    width: 40%;
+.about-text > p {
+  width: 40%;
+}
+.place-cards {
+  display: flex;
+  gap: 50px;
+  margin-top: 70px;
+}
+.place-card {
+  width: 500px;
+  height: 550px;
+  background-color: white;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+}
+.place-card img {
+  width: 500px;
+}
+.place-card span {
+  display: block;
+  font-weight: bolder;
+  font-size: 40px;
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+  position: relative;
+  top: -52px;
+  left: 44px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+}
+.place-card h2{
+    margin-top: -25px;
+    padding: 20px;
+}
+.place-card p{
+    padding: 20px;
+    margin-top: -30px;
+}
+.quote-img img{
+  width: 50px;
 }
