@@ -11,7 +11,7 @@ header {
   background-image: url(../images/bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 800px;
+  height: 100vh;
 }
 nav {
   display: flex;
@@ -54,6 +54,7 @@ nav {
   font-size: 72px;
   text-align: center;
   color: white;
+  margin-top: 200px;
 }
 
 .info {
@@ -118,7 +119,7 @@ select:focus {
 
 .summary {
   font-family: "Poppins", sans-serif;
-  margin: 154px 0px 100px 0px;
+  margin: 154px 0px 180px 0px;
 }
 .summary h1 {
   font-size: 45px;
@@ -169,7 +170,7 @@ select:focus {
   color: #4141a5;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 20px;
 }
 .about-us h1 {
   font-weight: 700;
@@ -200,6 +201,7 @@ select:focus {
   background-color: white;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 10px;
+  margin-bottom: 80px;
 }
 .place-card img {
   width: 500px;
@@ -208,8 +210,8 @@ select:focus {
   display: block;
   font-weight: bolder;
   font-size: 40px;
-  width: 88px;
-  height: 88px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   background-color: white;
   text-align: center;
@@ -229,6 +231,12 @@ select:focus {
 .place-card p {
   padding: 20px;
   margin-top: -30px;
+}
+.place-card:hover{
+  position: relative;
+  top: -40px;
+  /* transform: rotate(5deg); */
+  transition: top 4s ease-in-out;
 }
 .quote-img img {
   width: 50px;
@@ -262,6 +270,7 @@ select:focus {
   background-color: white;
   box-shadow: 0px 54px 80px -16px rgba(219, 222, 230, 0.8);
   border-radius: 12px;
+  margin-bottom: 70px;
 }
 .tour-details-container {
   display: flex;
@@ -299,6 +308,7 @@ select:focus {
 
 .partners {
   font-family: "Poppins", sans-serif;
+  margin-bottom: 120px !important;
 }
 
 .partners-img {
