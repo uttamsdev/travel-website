@@ -531,9 +531,6 @@ select:focus {
 }
 
 @media (max-width:688px) {
-  /* *{
-    overflow: hidden;
-  } */
   .bars{
     display: block;
   }
