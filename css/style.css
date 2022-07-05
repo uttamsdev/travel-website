@@ -592,4 +592,33 @@ select:focus {
   .search-btn{
     height: 50px;
   }
+  .about-text{
+    flex-direction: column;
+  }
+  .about-text h1{
+    font-size: 25px;
+    width: 100%;
+  }
+  .about-text > p{
+    width: 100%;
+    text-align: justify;
+  }
+  .tour-section > h1{
+    font-size: 30px;
+  }
+  .tour-cards{
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+  }
+  .testimonial-cards{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .top-cities-card img{
+    width: 350%;
+  }
+  .top-cities-card{
+    flex-direction: column;
+  }
 }
