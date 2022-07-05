@@ -20,6 +20,9 @@ nav {
   align-items: center;
   font-family: "Poppins", sans-serif;
 }
+.nav-bar{
+  overflow: hidden;
+}
 .container {
   width: 1500px;
   margin: 0 auto !important;
@@ -531,6 +534,9 @@ select:focus {
 }
 
 @media (max-width:688px) {
+  *{
+    overflow-x: hidden;
+  }
   .bars{
     display: block;
   }
