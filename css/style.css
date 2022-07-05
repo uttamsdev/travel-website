@@ -200,7 +200,7 @@ select:focus {
   margin-top: 70px;
 }
 .place-card {
-  width: 500px;
+  width: 470px;
   height: 550px;
   background-color: white;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -208,7 +208,7 @@ select:focus {
   margin-bottom: 70px;
 }
 .place-card img {
-  width: 500px;
+  width: 470px;
 }
 .place-card span {
   display: block;
@@ -531,6 +531,9 @@ select:focus {
 }
 
 @media (max-width:688px) {
+  /* *{
+    overflow: hidden;
+  } */
   .bars{
     display: block;
   }
@@ -611,14 +614,60 @@ select:focus {
     justify-content: center;
     /* align-items: center; */
   }
+  .place-cards{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .place-card, .place-card > img{
+    width: 360px;
+  }
+  .about-us, .tour-section{
+    width: 100%;
+  }
+  .partners{
+    width: 100%;
+  }
+  .partners-img{
+    flex-wrap: wrap;
+  }
+  .parterns-img-two{
+    flex-direction: column;
+  }
   .testimonial-cards{
     flex-direction: column;
     justify-content: center;
   }
   .top-cities-card img{
-    width: 350%;
+    width: 350px;
   }
   .top-cities-card{
     flex-direction: column;
+  }
+  
+  .subscribe{
+    width: 100%;
+    height: 600px;
+
+  }
+  .subscribe-area{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .subscribe-input{
+    margin-top: 0;
+  }
+  .subscribe-input{
+    width: 80%;
+    margin: 30px auto;
+    padding: 0px 30px;
+  }
+  .footer{
+    height: 700px;
+  }
+  .footer-container{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
   }
 }
