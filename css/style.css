@@ -563,4 +563,33 @@ select:focus {
   .nav-items.active ul {
     opacity: 1;
   }
+  .summary .info-container{
+    flex-direction: column;
+    align-items: center;
+  }
+  .banner > h1{
+    font-size: 50px;
+    margin-top: -60px;
+  }
+  .banner > p{
+    font-size: 18px;
+    text-align: justify;
+    padding: 20px;
+  }
+  .searching{
+    flex-direction: column;
+    align-items: center;
+  }
+  .input-area{
+    height: 60px;
+    width: 90%;
+    margin: auto;
+    padding: 0px 10px;
+  }
+  input,select{
+    width: 100px;
+  }
+  .search-btn{
+    height: 50px;
+  }
 }
